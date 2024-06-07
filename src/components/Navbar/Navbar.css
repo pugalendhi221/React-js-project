@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: red; /* Set background color */
+    padding: 15px 7%;
+}
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex; /* Change display to flex */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+ul li {
+    margin: 0 10px; /* Adjust margin */
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff; /* Set text color */
+}
+
+ul li:hover {
+   color: aqua ;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.search-box::placeholder {
+    color: #fff;
+}
+
+.search-box img {
+    width: 20px;
+    cursor: pointer;
+    color: #fff;    
+}
